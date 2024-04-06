@@ -35,5 +35,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://chaudharynikhil7.github.io/IdVerify",
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+
 }
